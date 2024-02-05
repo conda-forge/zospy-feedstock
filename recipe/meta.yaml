@@ -1,5 +1,5 @@
 {% set name = "zospy" %}
-{% set version = "1.1.2" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/zospy-{{ version }}.tar.gz
-  sha256: 21f77d281b2f13b55af344340cddf8c93101af724924300b3ca04bad28f3552d
+  sha256: 8aa6183b6bfbf40b114ca9f4527ec4abea2d8010c0e81e49a4cc98fcd1867dfa
 
 build:
   noarch: python
@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.9,<3.12
+    - python >=3.9,<3.13
     - flit-core >=3.2,<4
     - pip
   run:
-    - python >=3.9,<3.12
+    - python >=3.9,<3.13
     - pythonnet >=3.0.1,<3.1.dev0
     - pandas
     - numpy
@@ -40,7 +40,7 @@ about:
   summary: A Python package used to communicate with Zemax OpticStudio through the API
   doc_url: https://zospy.readthedocs.io/
   dev_url: https://github.com/MREYE-LUMC/ZOSPy/
-  license: GPL-3.0-only
+  license: MIT
   license_file: LICENSE.txt
 
 extra:
