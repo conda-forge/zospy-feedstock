@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/zospy-feedstock
 
 Home: https://zospy.readthedocs.io/
 
-Package license: GPL-3.0-only
+Package license: MIT
 
 Summary: A Python package used to communicate with Zemax OpticStudio through the API
 
