@@ -20,6 +20,9 @@ requirements:
     - flit-core >=3.2,<4
     - pip
   run:
+    - eval_type_backport
+    - lark ~= 1.2.0
+    - pydantic >= 2.4.0
     - python >=3.9,<3.13
     - pythonnet >=3.0.1,<3.1.dev0
     - pandas
