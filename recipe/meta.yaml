@@ -20,7 +20,7 @@ requirements:
     - hatchling >=1.27,<2
     - pip
   run:
-    - eval_type_backport # [py <= 39]
+    - eval_type_backport
     - lark ~=1.2.0
     - pydantic >=2.4.0
     - python >={{ python_min }},<3.14
@@ -28,7 +28,7 @@ requirements:
     - pandas
     - numpy
     - semver >=3.0.0,<4
-    - typing_extensions # [py <= 310]
+    - typing_extensions
     - __win
 
 test:
