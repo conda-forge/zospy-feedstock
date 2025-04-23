@@ -1,5 +1,5 @@
 {% set name = "zospy" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/zospy-{{ version }}.tar.gz
-  sha256: b8981d7e0b44494b488ff4f63742e6d4a6502a43a2e13afa56725948679314f3
+  sha256: edef54a9af78c9072dda477ca4659099b4ba90e6011ff8dfa90960a18759a633
 
 build:
   noarch: python
