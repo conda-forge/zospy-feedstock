@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -29,7 +29,6 @@ requirements:
     - numpy
     - semver >=3.0.0,<4
     - typing_extensions
-    - __win
 
 test:
   imports:
