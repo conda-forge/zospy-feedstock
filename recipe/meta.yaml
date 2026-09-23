@@ -23,7 +23,7 @@ requirements:
     - eval_type_backport
     - lark ~=1.2.0
     - pydantic >=2.4.0
-    - python >={{ python_min }},<3.14
+    - python >={{ python_min }},<3.15
     - pythonnet >=3.0.1,<4
     - pandas
     - numpy
